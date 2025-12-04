@@ -1,8 +1,8 @@
-# 🛡️ System Watchdog Daemon
+#  System Watchdog Daemon
 
 A lightweight Bash script that runs as a background process (daemon) to monitor system health in real-time. It checks CPU usage and Disk space, sending desktop notifications when critical thresholds are exceeded.
 
-## 🚀 Features
+##  Features
 
 * **Background Execution:** Runs silently using an infinite loop and sleep timers.
 * **Desktop Alerts:** Integrates with `libnotify` to send visual pop-ups (works on Gnome, Cinnamon, XFCE, etc.).
@@ -10,7 +10,7 @@ A lightweight Bash script that runs as a background process (daemon) to monitor 
 * **Process Safety:** * Uses **PID files** to prevent multiple instances from running.
     * Uses **Signal Trapping** (`trap`) to clean up temporary files upon exit (SIGINT/SIGTERM).
 
-## 📋 Prerequisites
+##  Prerequisites
 
 You need `libnotify` installed to see the desktop pop-ups.
 
@@ -18,7 +18,7 @@ You need `libnotify` installed to see the desktop pop-ups.
 * **Ubuntu/Debian:** `sudo apt install libnotify-bin`
 * **Fedora:** `sudo dnf install libnotify`
 
-## 🛠️ Usage
+##  Usage
 
 1.  **Clone the repository:**
     ```bash
@@ -43,7 +43,7 @@ You need `libnotify` installed to see the desktop pop-ups.
     kill $(cat /tmp/watchdog.pid)
     ```
 
-## ⚙️ Configuration
+##  Configuration
 
 Open `watchdog.sh` to adjust the thresholds:
 
