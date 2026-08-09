@@ -38,7 +38,7 @@ Python Packages: PyQt6
 
 Clone the Repository
 
-git clone [https://github.com/YOUR_USERNAME/system-watchdog.git](https://github.com/YOUR_USERNAME/system-watchdog.git)
+git clone [https://github.com/Sanjeev77744/system-watchdog.git](https://github.com/YOUR_USERNAME/system-watchdog.git)
 cd system-watchdog
 
 
